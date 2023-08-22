@@ -22,11 +22,10 @@ public class Dados {
         lista = aLista;
     }
     private String nome;
-    private String cidade;
-    private String endereco;
-    private String fone;
     private int idade;
-    
+    private String endereco;
+    private String cidade;  
+    private String fone;
     public static List<Dados> lista = new ArrayList();
 
     public String getNome() {
