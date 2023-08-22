@@ -6,7 +6,7 @@
 
 <%@page contentType="text/html" pageEncoding="windows-1252"%>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+                integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="container">
-            <form action="gravar" method="post">
+            <form action="gravar.jsp" method="post">
                 <div class="form-group">
                     <label for="nome">Nome</label>
                     <input type="text" class="form-control" name="nome" placeholder="Digite o nome">
@@ -37,12 +37,12 @@
                     <input type="text" class="form-control" name="fone" placeholder="Digite o fone">
                 </div>
                 <div class="form-group">
-                    <input type="submit" class="btn btn-success" value="Gravar">
-                    <input type="reset" class="btn btn-warning" value="Limpar">
+                    <input type="submit" class="btn btn-success" value="gravar">
+                    <input type="reset" class="btn btn-warning" value="limpar">
                 </div>
             </form>
             <hr>
-            <a href="listar" class="btn btn-primary">Listar</a>
+            <a href="listar.jsp" class="btn btn-primary">Listar</a>
         </div>
         
     </body>
